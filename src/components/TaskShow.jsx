@@ -33,8 +33,8 @@ function TaskShow({ task }) {
                     <h3>Yapılacaklar</h3>
                     <p>{task.taskDesc}</p>
                     <div className="card-btn-box">
-                        <button className="card-btn" onClick={handleDelete}>Sil</button>
-                        <button className="card-btn" onClick={handleEdit}>Güncelle</button>
+                        <button className="card-btn delete" onClick={handleDelete}>Sil</button>
+                        <button className="card-btn update" onClick={handleEdit}>Güncelle</button>
                     </div></div>)
             }
 
